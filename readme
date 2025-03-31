@@ -1,0 +1,28 @@
+Virtual Try-On and Color Detection
+This project includes two Python applications:
+
+1-Virtual Try-On - Upload or capture an image, remove the background, and overlay clothing.
+2-Shirt & Pants Color Detector - Detects and identifies dominant colors of shirts and pants in an uploaded image.
+
+Features:
+
+I-Virtual Try-On:
+
+1-Capture or upload an image.
+2-Remove background from clothing using an API.
+3-Overlay clothing onto the user’s image.
+4-Display and save the final result.
+
+II-Shirt & Pants Color Detector:
+
+1-Upload an image.
+2-Detect dominant colors of the shirt and pants.
+3-Retrieve color names via The Color API.
+4-Display detected colors visually.
+
+Dependencies to be installed:
+pip install opencv-python
+pip install requests
+pip install pillow
+pip install numpy
+pip install tkinter
